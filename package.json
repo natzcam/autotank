@@ -1,0 +1,30 @@
+{
+  "name": "autotank",
+  "version": "0.0.1",
+  "description": "auto tank",
+  "keywords": [],
+  "devDependencies": {
+    "expose-loader": "0.7.5",
+    "ts-loader": "6.0.0",
+    "typescript": "3.4.5",
+    "webpack": "4.31.0",
+    "webpack-cli": "3.3.2",
+    "webpack-dev-server": "3.3.1"
+  },
+  "dependencies": {
+    "phaser": "3.16.2"
+  },
+  "scripts": {
+    "dev": "webpack --mode development && webpack-dev-server --mode development",
+    "build": "webpack --mode production && webpack-dev-server --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natzcam/autotank.git"
+  },
+  "author": {
+    "name": "natzcam",
+    "email": "nathanielcamomot@gmail.com"
+  },
+  "license": "ISC"
+}
